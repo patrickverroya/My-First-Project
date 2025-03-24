@@ -1,0 +1,155 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000080;
+}
+
+.jk{
+
+    color:red;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Aligns logo to left and nav to right */
+    padding: 10px 20px;
+    background: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Move nav to the right */
+nav {
+    margin-left: 20px; /* Pushes nav to the right */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 5px;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000080;
+    font-weight: bold;
+    margin-right: 30px;
+}
+
+
+/* Hero Section */
+.hero {
+    height: 70vh;
+    background: url('../img/DSC_0921.JPG') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.hero-content p {
+    font-size: 14px;
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.cta-btn {
+    background: #000099;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.cta-btn:hover {
+    background: #6969ec;
+}
+
+/* Features Section */
+.features {
+    text-align: center;
+    padding: 50px 20px;
+    background: #f9f9f9;
+}
+
+.feature-list {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.feature-item {
+    max-width: 300px;
+}
+
+.icon {
+    font-size: 50px;
+    color: #000080;
+}
+
+/* Footer Section */
+footer {
+    background: #000080;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 50px;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: auto;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-links li {
+    display: inline;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
